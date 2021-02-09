@@ -5,7 +5,7 @@ Tired of checking the AAS job register and astro rumor mill for job news?
 Get the latest updates in the command line!
 
 `astrojobs` automatically grabs the latest jobs from the 
-AAS [Job Registry](https://jobregister.aas.org/) and news from the
+AAS [Job Register](https://jobregister.aas.org/) and news from the
 Astrobetter [Rumor Mill](https://www.astrobetter.com/wiki/Rumor+Mill+Faculty-Staff)
 and prints them right into the terminal.
 
@@ -16,7 +16,7 @@ and prints them right into the terminal.
 
 ### Install `astrojobs`
 
-You can install `astrojobs` from PyPI
+You can install `astrojobs` from [PyPI](https://pypi.org/project/astrojobs/) using the command line
 
 ```bash
 pip install astrojobs
