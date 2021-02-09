@@ -27,7 +27,7 @@ if not _version:
 setup(
     name=_name,
     version=_version,
-    description="Find all citation keys in your LaTeX documents and search NASA ADS to generate corresponding bibtex entries.",
+    description="Get the latest astronomy job and rumor news in your command line.",
     url="https://github.com/pmocz/{}".format(_name),
     download_url="https://github.com/pmocz/{}/archive/v{}.tar.gz".format(
         _name, _version
