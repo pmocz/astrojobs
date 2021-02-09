@@ -6,7 +6,7 @@ Get the latest updates in the command line!
 
 `astrojobs` automatically grabs the latest jobs from the 
 AAS [Job Registry](https://jobregister.aas.org/) and news from the
-Astrobetter [Rumormill](https://www.astrobetter.com/wiki/Rumor+Mill+Faculty-Staff/)
+Astrobetter [Rumor Mill](https://www.astrobetter.com/wiki/Rumor+Mill+Faculty-Staff/)
 and prints them right into the terminal.
 
 `astrojobs` helps you save time by only showing you the latest updates since the last time you checked.
@@ -27,11 +27,7 @@ pip install astrojobs
 
 Simply run `astrojobs` in the command line to see its options.
 
-```bash
-astrojobs
-```
-
-To list new __faculty__ positions, do:
+To list new __faculty__ positions, in your terminal type:
 ```bash
 astrojobs -f
 ```
@@ -50,6 +46,6 @@ _Internet connection is needed for `astrojobs` to work._
 ## Notices
 
 It is always your responsibility to check for jobs directly. 
-This code will break if AAS and Astrobetter reformats their websites.
+This code will break if AAS or Astrobetter reformats their websites.
 
 Information from the rumor mill may be not be accurate.
