@@ -50,7 +50,7 @@ setup(
     py_modules=[_name],
     install_requires=[
         "bs4>=0.0.1",
-        "urllib>=1.25.7",
+        "urllib3>=1.25.7",
         "requests>=2.0",
         "wasabi>=0.8.2",
         "future>=0.12.0 ; python_version < '3.0'",
