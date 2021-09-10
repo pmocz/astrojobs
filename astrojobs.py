@@ -48,8 +48,9 @@ def check_aas_updates(jobType):
 	elif(jobType == 'postdoc'):
 		jobTypeId = 'PostDocFellow'
 	
-	source = urllib.request.urlopen('https://jobregister.aas.org/').read()
-	
+    req = urllib.request.Request('https://jobregister.aas.org', headers={'User-Agent': 'Mozilla/5.0'})
+	source = urllib.request.urlopen(req).read()
+
 	soup = bs.BeautifulSoup(source,'html.parser')
 	
 	jobs = soup.find(id=jobTypeId).nextSibling.find_all('td')
