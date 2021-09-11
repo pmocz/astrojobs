@@ -22,7 +22,7 @@ import urllib.request
 from wasabi import color
 
 
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
