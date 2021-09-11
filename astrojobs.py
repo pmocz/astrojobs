@@ -22,7 +22,7 @@ import urllib.request
 from wasabi import color
 
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
@@ -48,7 +48,7 @@ def check_aas_updates(jobType):
 	elif(jobType == 'postdoc'):
 		jobTypeId = 'PostDocFellow'
 	
-    req = urllib.request.Request('https://jobregister.aas.org', headers={'User-Agent': 'Mozilla/5.0'})
+	req = urllib.request.Request('https://jobregister.aas.org', headers={'User-Agent': 'Mozilla/5.0'})
 	source = urllib.request.urlopen(req).read()
 
 	soup = bs.BeautifulSoup(source,'html.parser')
